@@ -4,7 +4,7 @@
 
 void main()
 {
-	int a=-1,b=1,n,c,i;
+	int a=-1,b=1,n,c,i,sum=0;
 	clrscr();
 	printf("\t\t\t-----:Fibonacci Series:-----");
 	printf("\n\nEnter the limitation of the series:: ");
@@ -19,7 +19,9 @@ void main()
 		}
 		a=b;
 		b=c;
+		sum+=c;
 	}
+	printf("\n\nThe Sum of the Series is :: %d",sum);
 	printf("\n\npress any key to exit");
 	getch();
 }
