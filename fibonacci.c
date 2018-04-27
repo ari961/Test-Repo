@@ -13,7 +13,10 @@ void main()
 	for(i=0;i<=n;i++)
 	{
 		c=a+b;
-		printf(" %d,",c);
+		if(c!=0)     // Series starts with 1
+		{
+			printf(" %d,",c);
+		}
 		a=b;
 		b=c;
 	}
