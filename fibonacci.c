@@ -25,6 +25,7 @@ void main()
 		sum += c;
 		mul *= c;
 	}
+	
 	printf("\n\nThe Sum of the Series is :: %d",sum);
 	printf("\n\nThe Multiplication of the Series is :: %d",mul);
 	printf("\n\npress any key to exit");
