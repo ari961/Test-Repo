@@ -6,7 +6,7 @@
 void main()
 {
 	int a=-1,b=1,n,c,i,sum=0,mul=1;
-	clrscr();
+	clrscr();//clear the screen
 	
 	printf("\t\t\t-----:Fibonacci Series:-----");
 	printf("\n\nEnter the limitation of the series:: ");
